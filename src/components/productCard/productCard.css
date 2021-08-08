@@ -1,0 +1,14 @@
+.productcard {
+  border: solid 1px rgb(192, 186, 186);
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 2rem;
+  padding: 1rem;
+}
+.productcard__thumbnail {
+  width: auto;
+  height: 300px;
+}
