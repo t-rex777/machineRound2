@@ -1,6 +1,6 @@
 .productcard {
   border: solid 1px rgb(192, 186, 186);
-  width: 330px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,5 +10,13 @@
 }
 .productcard__thumbnail {
   width: auto;
-  height: 300px;
+  height: 250px;
+}
+.productcard__brand {
+  color: gray;
+  font-size: 1.5rem;
+}
+.productcard__name{
+color:green;
+font-weight: 700;
 }

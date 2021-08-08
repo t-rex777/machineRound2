@@ -5,11 +5,21 @@ function Navbar() {
   return (
     <div className="navbar">
       <div>
-        <Link to="/">FLIPKART</Link>
+        <Link to="/" className="navbar__items">
+          FLIPKART
+        </Link>
       </div>
-      <div>SEARCH</div>
       <div>
-        <Link to="/cart">CART</Link>
+        <input
+          className="navbar__search"
+          type="text"
+          placeholder="search products"
+        />
+      </div>
+      <div>
+        <Link className="navbar__items" to="/cart">
+          CART
+        </Link>
       </div>
     </div>
   );

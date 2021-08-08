@@ -31,7 +31,7 @@ function CartCard({ product, quantity, savedItems }) {
       <div>
         <p className="cartcard__brand">{product.brand}</p>
         <p className="cartcard__name">{product.name}</p>
-        <p className="cartcard__price">{product.price}</p>
+        <p className="cartcard__price">₹{product.price}</p>
         <div className="cartcard__qnt">
           <button disabled={savedItems} onClick={decreaseQnt}>
             -
@@ -42,7 +42,7 @@ function CartCard({ product, quantity, savedItems }) {
           </button>
         </div>
       </div>
-      <div>
+      <div className="cartcard__interactions">
         <button
           onClick={
             savedItems ? removeProductFromSavedItems : removeProductFromCart

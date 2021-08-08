@@ -23,3 +23,12 @@
   width: 25px;
   margin: 0 1rem;
 }
+
+.cartcard__interactions {
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
+.cartcard__interactions > button {
+  margin: 0 1rem;
+}

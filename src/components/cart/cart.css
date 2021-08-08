@@ -7,3 +7,12 @@
 .cart__items {
   flex-grow: 1;
 }
+.noProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}

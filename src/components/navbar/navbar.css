@@ -3,4 +3,14 @@
   justify-content: space-evenly;
   background-color: rgba(22, 61, 236, 0.719);
   color: #fff;
+  padding: 0.5rem 1rem;
+}
+.navbar__items {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.navbar__search {
+  padding: 0.2rem 0.5rem;
 }
