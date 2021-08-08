@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <div>FLIPKART</div>
+      <div>
+        <Link to="/">FLIPKART</Link>
+      </div>
       <div>SEARCH</div>
-      <div>CART</div>
+      <div>
+        <Link to="/cart">CART</Link>
+      </div>
     </div>
   );
 }
