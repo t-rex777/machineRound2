@@ -9,13 +9,7 @@ function Navbar() {
           FLIPKART
         </Link>
       </div>
-      <div>
-        <input
-          className="navbar__search"
-          type="text"
-          placeholder="search products"
-        />
-      </div>
+      
       <div>
         <Link className="navbar__items" to="/cart">
           CART
